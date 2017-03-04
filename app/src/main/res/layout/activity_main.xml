@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/hello"
+    android:layout_height="match_parent"
+    tools:context="com.example.ravinderreddy.sharedloginsingup.MainActivity">
+
+
+<LinearLayout
+    android:background="@drawable/shape"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical"
+    android:id="@+id/second_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="350dp">
+
+
+<TextView
+    android:text="Login Here"
+    android:textSize="20sp"
+    android:textAlignment="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="UserName"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        android:minLines="1"
+        android:textColor="#050505"
+        android:background="@drawable/shape"
+        android:layout_marginTop="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="number"
+        android:minLines="1"
+        android:padding="15dp"
+        android:hint="Password"
+        android:textColor="#0b0b0b"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:background="@drawable/shape"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<Button
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    android:id="@+id/btnLogin"
+    android:background="@drawable/shape"
+    android:text="Login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </LinearLayout>
